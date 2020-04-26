@@ -1,7 +1,20 @@
 body {
-  padding-top: 5rem;
+  padding-bottom: 20px;
 }
-.starter-template {
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.template-content-block {
   padding: 3rem 1.5rem;
   text-align: center;
+}
+
+.search-main {
+  display: inline-block;
+}
+
+.main-button {
+  margin: 0.5em;
 }

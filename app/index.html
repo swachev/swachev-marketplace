@@ -13,59 +13,65 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="custom.css">
 
-  <title>Hello, world!</title>
+  <title>Online Marketplace</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-dark bg-dark">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <a class="navbar-brand" href="#">InstaSupport</a>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+<!-- 
+    <form class="form-inline my-2 my-md-0">
+      <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+    </form>
+-->
+
+    <div class="collapse navbar-collapse" id="navbarsExample01">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Link 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Link 2</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link 3</a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+
+    </div>
+  </nav>
+  
+  
+  <main role="main" class="container">
+
+    <div id="main-search" class="template-content-block">
+      <form class="form-inline my-2 my-lg-0 search-main">
+        <input class="form-control" type="text" placeholder="Search support" aria-label="Search">
         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
-  </nav>
 
-  <main role="main" class="container">
-
-    <div class="starter-template">
-      <h1>Bootstrap starter template</h1>
-      <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a
-        mostly barebones HTML document.</p>
+    <div id="main-button-group" class="template-content-block">
+      <button type="button" class="btn btn-outline-secondary main-button">Cleaning</button>
+      <button type="button" class="btn btn-outline-secondary main-button">Grocery</button>
+      <button type="button" class="btn btn-outline-secondary main-button">Hospital</button>
+      <button type="button" class="btn btn-outline-secondary main-button">Maintenance</button>
+      <button type="button" class="btn btn-outline-secondary main-button">Child Care</button>
+      <button type="button" class="btn btn-outline-secondary main-button">Medicine</button>
     </div>
 
+
   </main><!-- /.container -->
-
-
-
-
 
 
   <!-- Optional JavaScript -->
