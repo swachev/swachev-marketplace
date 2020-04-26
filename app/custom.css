@@ -1,0 +1,30 @@
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.template-content-block {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.search-main {
+  display: inline-block;
+}
+
+.main-button {
+  margin: 0.5em;
+  padding-top: 0.75em;
+}
+
+.main-button-icon {
+  /*  */
+}
+
+.main-button-label {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
