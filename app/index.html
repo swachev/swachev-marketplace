@@ -23,26 +23,32 @@
 <body>
 
   <nav class="navbar navbar-dark bg-dark">
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuListItems"
+      aria-controls="menuListItems" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="#">InstaSupport</a>
 
     <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-      <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
-        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+      <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+          clip-rule="evenodd" />
+        <path fill-rule="evenodd"
+          d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+          clip-rule="evenodd" />
       </svg>
       <span class="sr-only">Search</span>
     </button>
-<!-- 
+    <!--
     <form class="form-inline my-2 my-md-0">
       <input class="form-control" type="text" placeholder="Search" aria-label="Search">
     </form>
 -->
 
-    <div class="collapse navbar-collapse" id="navbarsExample01">
+    <div class="collapse navbar-collapse" id="menuListItems">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -60,20 +66,29 @@
 
     </div>
   </nav>
-  
+
 
   <main role="main" class="container">
 
     <div id="main-search" class="template-content-block">
       <form class="form-inline my-2 my-lg-0 search-main">
-        <input class="form-control" type="text" placeholder="Search support" aria-label="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-          <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
-            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
-          </svg>
-          <span class="sr-only">Search</span>
-        </button>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Search support" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-secondary" type="submit">
+              <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z"
+                  clip-rule="evenodd" />
+                <path fill-rule="evenodd"
+                  d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"
+                  clip-rule="evenodd" />
+              </svg>
+              <span class="sr-only">Search</span>
+            </button>
+          </div>
+        </div>
       </form>
     </div>
 
@@ -88,31 +103,31 @@
         <span class="main-button-icon">
           <i class="fas fa-carrot fa-2x"></i>
         </span>
-        <p  class="main-button-label">Grocery</p>
+        <p class="main-button-label">Grocery</p>
       </button>
       <button type="button" class="btn btn-outline-secondary main-button">
         <span class="main-button-icon">
           <i class="far fa-hospital fa-2x"></i>
         </span>
-        <p  class="main-button-label">Hospital</p>
+        <p class="main-button-label">Hospital</p>
       </button>
       <button type="button" class="btn btn-outline-secondary main-button">
         <span class="main-button-icon">
           <i class="fas fa-tools fa-2x"></i>
         </span>
-        <p  class="main-button-label">Maintenance</p>
+        <p class="main-button-label">Maintenance</p>
       </button>
       <button type="button" class="btn btn-outline-secondary main-button">
         <span class="main-button-icon">
           <i class="fas fa-baby fa-2x"></i>
         </span>
-        <p  class="main-button-label">Child Care</p>
+        <p class="main-button-label">Child Care</p>
       </button>
       <button type="button" class="btn btn-outline-secondary main-button">
         <span class="main-button-icon">
           <i class="fas fa-pills fa-2x"></i>
         </span>
-        <p  class="main-button-label">Medicine</p>
+        <p class="main-button-label">Medicine</p>
       </button>
     </div>
 

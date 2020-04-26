@@ -7,7 +7,7 @@ body {
 }
 
 .template-content-block {
-  padding: 3rem 1.5rem;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -17,6 +17,7 @@ body {
 
 .main-button {
   margin: 0.5em;
+  padding-top: 0.75em;
 }
 
 .main-button-icon {
