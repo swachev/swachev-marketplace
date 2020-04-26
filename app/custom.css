@@ -44,3 +44,23 @@ body {
   bottom: 1.5rem;
   right: 1.5rem;
 }
+
+.text-color-home {
+  color: #ffc107 !important; /* bootstrap .text-warning */
+}
+
+.button-color-home {
+  color: #212529;
+  background-color: #ffc107; /* bootstrap .btn-warning */
+  border-color: #ffc107; /* bootstrap .btn-warning */
+}
+
+.text-color-grocery {
+  color: #28a745 !important; /* bootstrap .text-success */
+}
+
+.button-color-grocery {
+  color: #fff;
+  background-color: #28a745; /* bootstrap .btn-success */
+  border-color: #28a745; /* bootstrap .btn-success */
+}
