@@ -18,3 +18,12 @@ body {
 .main-button {
   margin: 0.5em;
 }
+
+.main-button-icon {
+  /*  */
+}
+
+.main-button-label {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}

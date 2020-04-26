@@ -13,6 +13,10 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="custom.css">
 
+  <!-- Fonts -->
+  <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <script src="https://kit.fontawesome.com/5b7376f65f.js" crossorigin="anonymous"></script>
+
   <title>Online Marketplace</title>
 </head>
 
@@ -25,7 +29,13 @@
     </button>
     <a class="navbar-brand" href="#">InstaSupport</a>
 
-    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+      <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+      </svg>
+      <span class="sr-only">Search</span>
+    </button>
 <!-- 
     <form class="form-inline my-2 my-md-0">
       <input class="form-control" type="text" placeholder="Search" aria-label="Search">
@@ -51,23 +61,59 @@
     </div>
   </nav>
   
-  
+
   <main role="main" class="container">
 
     <div id="main-search" class="template-content-block">
       <form class="form-inline my-2 my-lg-0 search-main">
         <input class="form-control" type="text" placeholder="Search support" aria-label="Search">
-        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+          <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+          </svg>
+          <span class="sr-only">Search</span>
+        </button>
       </form>
     </div>
 
     <div id="main-button-group" class="template-content-block">
-      <button type="button" class="btn btn-outline-secondary main-button">Cleaning</button>
-      <button type="button" class="btn btn-outline-secondary main-button">Grocery</button>
-      <button type="button" class="btn btn-outline-secondary main-button">Hospital</button>
-      <button type="button" class="btn btn-outline-secondary main-button">Maintenance</button>
-      <button type="button" class="btn btn-outline-secondary main-button">Child Care</button>
-      <button type="button" class="btn btn-outline-secondary main-button">Medicine</button>
+      <button type="button" class="btn btn-outline-secondary main-button">
+        <span class="main-button-icon">
+          <i class="fas fa-broom fa-2x"></i>
+        </span>
+        <p class="main-button-label">Cleaning</p>
+      </button>
+      <button type="button" class="btn btn-outline-secondary main-button">
+        <span class="main-button-icon">
+          <i class="fas fa-carrot fa-2x"></i>
+        </span>
+        <p  class="main-button-label">Grocery</p>
+      </button>
+      <button type="button" class="btn btn-outline-secondary main-button">
+        <span class="main-button-icon">
+          <i class="far fa-hospital fa-2x"></i>
+        </span>
+        <p  class="main-button-label">Hospital</p>
+      </button>
+      <button type="button" class="btn btn-outline-secondary main-button">
+        <span class="main-button-icon">
+          <i class="fas fa-tools fa-2x"></i>
+        </span>
+        <p  class="main-button-label">Maintenance</p>
+      </button>
+      <button type="button" class="btn btn-outline-secondary main-button">
+        <span class="main-button-icon">
+          <i class="fas fa-baby fa-2x"></i>
+        </span>
+        <p  class="main-button-label">Child Care</p>
+      </button>
+      <button type="button" class="btn btn-outline-secondary main-button">
+        <span class="main-button-icon">
+          <i class="fas fa-pills fa-2x"></i>
+        </span>
+        <p  class="main-button-label">Medicine</p>
+      </button>
     </div>
 
 
