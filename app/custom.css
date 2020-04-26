@@ -28,3 +28,19 @@ body {
   margin-top: 0.5em;
   margin-bottom: 0;
 }
+
+.add-to-cart-button {
+  border-radius: 25px;
+  padding: .375rem .75rem .375rem .375rem;
+}
+
+.add-to-cart-text {
+  margin-left: 0.5em;
+}
+
+.cart-fab {
+  padding: 1.25em;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem; 
+}
