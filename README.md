@@ -43,7 +43,7 @@ Online marketplace
 ## Fork a repo
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-On GitHub, navigate to the 'https://github.com/swachev/swachev-marketplace' repository.
+On GitHub, navigate to the https://github.com/swachev/swachev-marketplace repository.
 In the top-right corner of the page, click Fork. 
 
 Step 2: Create a local clone of your fork
@@ -53,18 +53,16 @@ Under the repository name, click Clone or download.
 
 To clone the repository using HTTPS, under "Clone with HTTPS", click . 
  
-
-
 Open Git Bash.
 Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of YOUR-USERNAME:
 ```bash
-$ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+$ git clone https://github.com/YOUR-USERNAME/swachev-marketplace
 ```
 
 Press Enter. Your local clone will be created.
 ```bash
-$ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
-> Cloning into `Spoon-Knife`...
+$ git clone https://github.com/YOUR-USERNAME/swachev-marketplace
+> Cloning into `swachev-marketplace`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
@@ -72,27 +70,24 @@ $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
 ```
 Open Git Bash.
 Change directories to the location of the fork you cloned in Step 2: Create a local clone of your fork.
-To go to your home directory, type just cd with no other text.
-To list the files and folders in your current directory, type ls.
-To go into one of your listed directories, type cd your_listed_directory.
-To go up one directory, type cd ...
+
 Type git remote -v and press Enter. You'll see the current configured remote repository for your fork.
 ```bash
 $ git remote -v
-> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+> origin  https://github.com/YOUR_USERNAME/swachev-marketplace.git (fetch)
+> origin  https://github.com/YOUR_USERNAME/swachev-marketplace.git (push)
 ```
 Type git remote add upstream, and then paste the URL you copied in Step 2 and press Enter. It will look like this:
 ```bash
-$ git remote add upstream https://github.com/octocat/Spoon-Knife.git
+$ git remote add upstream https://github.com/swachev/swachev-marketplace.git
 ```
 To verify the new upstream repository you've specified for your fork, type git remote -v again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
 ```bash
 $ git remote -v
-> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
-> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+> origin    https://github.com/YOUR_USERNAME/swachev-marketplace.git (fetch)
+> origin    https://github.com/YOUR_USERNAME/swachev-marketplace.git (push)
+> upstream  https://github.com/swachev/swachev-marketplace.git (fetch)
+> upstream  https://github.com/swachev/swachev-marketplace.git (push)
 ```
 ## Syncing a fork
 Sync a fork of a repository to keep it up-to-date with the upstream repository.
