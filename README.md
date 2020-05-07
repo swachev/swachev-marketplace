@@ -57,6 +57,7 @@ To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone 
 
 Open Git Bash.
 Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of YOUR-USERNAME:
+```bash
 $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
 Press Enter. Your local clone will be created.
 $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
@@ -65,7 +66,7 @@ $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
-
+```
 Open Git Bash.
 Change directories to the location of the fork you cloned in Step 2: Create a local clone of your fork.
 To go to your home directory, type just cd with no other text.
