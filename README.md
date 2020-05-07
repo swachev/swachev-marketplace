@@ -36,7 +36,8 @@
 	java -jar target/ev-0.0.1-SNAPSHOT.jar
 	```
 ## Fork a repo
-A fork is a copy of a repository. 
+A fork is a copy of a repository.
+
 Forking a repository allows you to freely experiment with changes without affecting the original project.
 
 1. On GitHub, navigate to the https://github.com/swachev/swachev-marketplace repository.
@@ -44,13 +45,13 @@ In the top-right corner of the page, click Fork.
 
 ![Screenshot](https://evliion.s3.amazonaws.com/fork-image-jpeg.jpg)
 
-2. Create a local clone of your fork
+2. Create a local clone of your fork.
 On GitHub, navigate to your fork of the swachev-marketplace repository.
 Under the repository name, click Clone or download.
 
 ![alt tag](https://evliion.s3.amazonaws.com/clone-download-jpeg.jpg)
 
-3. To clone the repository using HTTPS, under "Clone with HTTPS", click.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click on Arrow sign to copy url.
 
 ![alt tag](https://evliion.s3.amazonaws.com/clone-with-https-jpeg.jpg)
 
@@ -75,7 +76,7 @@ $ git remote -v
 > origin  https://github.com/YOUR_USERNAME/swachev-marketplace.git (fetch)
 > origin  https://github.com/YOUR_USERNAME/swachev-marketplace.git (push)
 ```
-7. Type git remote add upstream, and then paste the URL you copied in Step 2 and press Enter. It will look like this:
+7. Type git remote add upstream, and then paste the URL you copied in Step 3 and press Enter. It will look like this:
 ```bash
 $ git remote add upstream https://github.com/swachev/swachev-marketplace.git
 ```
