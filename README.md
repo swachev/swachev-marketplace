@@ -40,7 +40,7 @@ Online marketplace
 	```
 
 
-Fork a repo
+1. **Fork a repo**
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
 On GitHub, navigate to the octocat/Spoon-Knife repository.
@@ -74,24 +74,30 @@ To list the files and folders in your current directory, type ls.
 To go into one of your listed directories, type cd your_listed_directory.
 To go up one directory, type cd ...
 Type git remote -v and press Enter. You'll see the current configured remote repository for your fork.
+```bash
 $ git remote -v
 > origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 > origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+```
 Type git remote add upstream, and then paste the URL you copied in Step 2 and press Enter. It will look like this:
+```bash
 $ git remote add upstream https://github.com/octocat/Spoon-Knife.git
+```
 To verify the new upstream repository you've specified for your fork, type git remote -v again. You should see the URL for your fork as origin, and the URL for the original repository as upstream.
+```bash
 $ git remote -v
 > origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 > origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
 > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
-
-Syncing a fork
+```
+2. **Syncing a fork**
 Sync a fork of a repository to keep it up-to-date with the upstream repository.
 
 Open Git Bash.
 Change the current working directory to your local project.
 Fetch the branches and their respective commits from the upstream repository. Commits to master will be stored in a local branch, upstream/master.
+```bash
 $ git fetch upstream
 > remote: Counting objects: 75, done.
 > remote: Compressing objects: 100% (53/53), done.
@@ -99,6 +105,9 @@ $ git fetch upstream
 > Unpacking objects: 100% (62/62), done.
 > From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY
 >  * [new branch]      master     -> upstream/master
+```
 Check out your fork's local master branch.
+```bash
 $ git checkout master
 > Switched to branch 'master'
+```
