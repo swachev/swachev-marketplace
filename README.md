@@ -40,7 +40,7 @@ Online marketplace
 	```
 
 
-1. **Fork a repo**
+## Fork a repo
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
 On GitHub, navigate to the octocat/Spoon-Knife repository.
@@ -91,7 +91,7 @@ $ git remote -v
 > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
 > upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
 ```
-2. **Syncing a fork**
+## Syncing a fork
 Sync a fork of a repository to keep it up-to-date with the upstream repository.
 
 Open Git Bash.
