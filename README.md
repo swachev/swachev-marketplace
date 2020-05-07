@@ -1,40 +1,3 @@
-## Steps to Setup the Spring Boot Back end app (evliion-app-server)
-
-1. **Clone the application**
-
-	```bash
-	git clone git@github.com:swachev/swachev-api.git
-	cd evliion-app-server
-	```
-
-2. **Create MySQL database**
-
-	```bash
-	create database evliion_app
-	```
-
-3. **Change MySQL username and password as per your MySQL installation**
-
-	+ open `src/main/resources/application.properties` file.
-
-	+ change `spring.datasource.username` and `spring.datasource.password` properties as per your mysql installation
-
-4. **Run the app**
-
-	You can run the spring boot app by typing the following command -
-
-	```bash
-	mvn spring-boot:run
-	```
-
-	The server will start on port 8080.
-
-	You can also package the application in the form of a `jar` file and then run it like so -
-
-	```bash
-	mvn package
-	java -jar target/ev-0.0.1-SNAPSHOT.jar
-	```
 ## Fork a repo
 A fork is a copy of a repository.
 
@@ -103,3 +66,6 @@ $ git fetch upstream
 > From https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY
 >  * [new branch]      master     -> upstream/master
 ```
+
+## Creating Pull Request
+https://jarv.is/notes/how-to-pull-request-fork-github/
