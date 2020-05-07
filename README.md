@@ -40,15 +40,18 @@ A fork is a copy of a repository.
 Forking a repository allows you to freely experiment with changes without affecting the original project.
 
 1. On GitHub, navigate to the https://github.com/swachev/swachev-marketplace repository.
-In the top-right corner of the page, click Fork. 
+In the top-right corner of the page, click Fork.
+
 ![Screenshot](https://evliion.s3.amazonaws.com/fork-image-jpeg.jpg)
 
 2. Create a local clone of your fork
 On GitHub, navigate to your fork of the swachev-marketplace repository.
-Under the repository name, click Clone or download. 
+Under the repository name, click Clone or download.
+
 ![alt tag](https://evliion.s3.amazonaws.com/clone-download-jpeg.jpg)
 
-To clone the repository using HTTPS, under "Clone with HTTPS", click . 
+To clone the repository using HTTPS, under "Clone with HTTPS", click.
+
 ![alt tag](https://evliion.s3.amazonaws.com/clone-with-https-jpeg.jpg)
 
 Open Git Bash. Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of YOUR-USERNAME:
