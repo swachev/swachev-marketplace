@@ -43,23 +43,26 @@ Online marketplace
 ## Fork a repo
 A fork is a copy of a repository. Forking a repository allows you to freely experiment with changes without affecting the original project.
 
-On GitHub, navigate to the octocat/Spoon-Knife repository.
+On GitHub, navigate to the 'https://github.com/swachev/swachev-marketplace' repository.
 In the top-right corner of the page, click Fork. 
 
 Step 2: Create a local clone of your fork
-Right now, you have a fork of the Spoon-Knife repository, but you don't have the files in that repository on your computer. Let's create a clone of your fork locally on your computer.
 On GitHub, navigate to your fork of the Spoon-Knife repository.
 Under the repository name, click Clone or download. 
 
 
-To clone the repository using HTTPS, under "Clone with HTTPS", click . To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click . 
+To clone the repository using HTTPS, under "Clone with HTTPS", click . 
+ 
 
 
 Open Git Bash.
 Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of YOUR-USERNAME:
 ```bash
 $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
+```
+
 Press Enter. Your local clone will be created.
+```bash
 $ git clone https://github.com/YOUR-USERNAME/Spoon-Knife
 > Cloning into `Spoon-Knife`...
 > remote: Counting objects: 10, done.
